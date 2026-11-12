@@ -1,0 +1,35 @@
+<!-- 2026BCS0102 Gokul Ramesh -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Logical operators </title>
+</head>
+<body>
+    <p id="relational-operators"></p>
+    <p id="logical-operators"></p>
+    <script>
+        let result = 20;
+        let answer =
+            "result > 20 is: " + (result > 20) + "<br>" +
+            "result < 16 is: " + (result < 16) + "<br>" +
+            "result >= 20 is: " + (result >= 20) + "<br>" +
+            "result <= 19 is: " + (result <= 19) + "<br>" +
+            "result == 20 is: " + (result == 20) + "<br>" +
+            "result != 20 is: " + (result != 20) + "<br>";
+
+        document.getElementById('relational-operators').innerHTML = answer;
+    </script>
+    <script>
+        let marks = 90;
+        const bool = false;
+        let output =
+            "marks AND bool: " + (marks && bool) + "<br>" +
+            "marks OR bool: " + (marks || bool) + "<br>" +
+            "NOT Bool: " + (!bool) + "<br>" +
+            "NOT Marks: " + (!marks);
+
+        document.getElementById('logical-operators').innerHTML = output;
+    </script>
+
+</body>
+</html>
