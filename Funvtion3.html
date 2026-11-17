@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+<p>A function to add two numbers.</p>
+<p id="addnos"></p>
+<script>
+// Function to add two numbers
+function add(a, b) {
+ return a + b;
+}
+k = prompt("Enter Number 1:");
+k = Number(k);
+l = prompt("Enter Number 2:");
+l = Number(l);
+m = prompt("Enter Number 3:");
+m = Number(m);
+n= prompt("Enter Number 4:");
+n = Number(n);
+let sum1 = add(k,l);
+let sum2 = add(m,n);
+document.getElementById("addnos").innerHTML = "The results are  " + sum1 + " and " + sum2;
+</script>
+</body>
+</html>
