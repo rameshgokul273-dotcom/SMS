@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+<p>A function that returns the message entered by user</p>
+<p id="message"></p>
+<script>
+function message() {
+    let message = prompt("Enter message");
+    return message;
+}
+let output = message();
+document.getElementById("message").innerHTML = output;
+</script>
+</body>
+</html>
